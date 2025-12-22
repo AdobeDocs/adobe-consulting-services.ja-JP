@@ -1,11 +1,12 @@
 ---
 product: adobe experience manager
 solution: Experience Manager
-description: コンサルティングExperience Managerドキュメント
+description: Experience Managerのドキュメントの参照
 type: Documentation
-git-repo: https://github.com/AdobeDocs/adobe-consulting-services.ja-JP
+git-repo: https://github.com/Adobe-Enterprise-Docs/adobe-consulting-services.ja-JP
 index: y
-source-git-commit: e2dac4b36fb94d72b72ef6f73a77e3f566539444
+hide: n
+source-git-commit: d36298f9c8abf2859e2a8fc9be92d2fcae8d60cf
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 54%
@@ -15,7 +16,7 @@ ht-degree: 54%
 
 # 内部使用メタデータ
 
-GitHub オーサリングシステムのメタデータは階層的で、次に示す前例のレベルが高くなっていきます。
+GitHub オーサリングシステムのメタデータは階層になっており、次の高い優先度で定義されています。
 
 1. metadata.md
 1. 目次
@@ -39,4 +40,4 @@ metadata.md
 * `title`
 * `description`
 
-メタデータに関する追加情報は、 [内部オーサリングガイド](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html).
+メタデータに関する追加情報については、[&#x200B; 内部オーサリングガイド &#x200B;](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html) を参照してください。
