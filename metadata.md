@@ -5,8 +5,8 @@ description: Experience Managerのドキュメントの参照
 type: Documentation
 git-repo: https://github.com/Adobe-Enterprise-Docs/adobe-consulting-services.ja-JP
 index: y
-hide: n
-source-git-commit: d36298f9c8abf2859e2a8fc9be92d2fcae8d60cf
+author: Anon
+source-git-commit: ac36c3ae49021c2b66234c8664df0969995aba62
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 54%
@@ -40,4 +40,4 @@ metadata.md
 * `title`
 * `description`
 
-メタデータに関する追加情報については、[&#x200B; 内部オーサリングガイド &#x200B;](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html) を参照してください。
+メタデータに関する追加情報については、[ 内部オーサリングガイド ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html) を参照してください。
