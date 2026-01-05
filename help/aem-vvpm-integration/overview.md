@@ -2,7 +2,7 @@
 title: Veeva Vault 統合の概要
 description: Veeva Vault 統合の概要
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: b024e4295b5b37030c1524342832400c279c650a
+source-git-commit: 395228eb060833c5c8e202d6935201965e8ea474
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -99,3 +99,4 @@ ht-degree: 0%
 ### Veeva Vault プロモマットのサポートのリクエスト
 
 時々、経験される問題は、Veeva Vault PromoMats インスタンスの操作に関する問題です。 その場合、Veeva Vault PromoMats 管理者は、[Veeva サポート &#x200B;](http://support.veeva.com/) でサポートチケットを作成するように指示される場合があります。 Veeva インスタンスのステータスは、[Veeva Trust](http://trust.veeva.com/) に移動すると表示できます。
+
