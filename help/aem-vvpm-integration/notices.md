@@ -2,7 +2,7 @@
 title: Veeva Vault の統合に関する注意事項
 description: Veeva Vault の統合に関する注意事項
 exl-id: 1a188671-d123-4475-a607-65743ba0dadd
-source-git-commit: 07eab1e439626bd3bb3416c9e7d0c1666927a7aa
+source-git-commit: b024e4295b5b37030c1524342832400c279c650a
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 * メタデータを同期する場合、「テキスト」および「複数行テキスト」のデータタイプのみがサポートされます。
 * 統合では、AEMのモジュール型コンテンツ（コンテンツフラグメントとエクスペリエンスフラグメント）はサポートされますが、VVPM のモジュール型コンテンツはサポートされません。
 * VVPM にリンクされたドキュメントはサポートされていません。
-* VVPM からAEMへの VVPM ビジュアル注釈の同期はサポートされていません。
+* VVPM からAEMへの VVPM 視覚注釈の同期はサポートされていません。
 * 統合では、コンテンツを VVPM からAEMに読み込みません。
 * メタデータの検証はサポートされていません。
 * ドキュメントの数は、Veeva ライセンスに基づいて制限されます。 [&#x200B; ライセンスの制限 &#x200B;](#veeva-license-limitations) を参照してください。
@@ -44,3 +44,4 @@ ht-degree: 1%
 VVPM の一般設定に移動すると、インスタンスの制限を監視できます。
 
 ![Veeva の制限 &#x200B;](assets/veeva-limits.png)
+
