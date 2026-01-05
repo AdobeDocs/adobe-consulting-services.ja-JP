@@ -17,7 +17,7 @@ Veeva Portal では、コンテンツタイプ（プロモーションなど）�
 
 **この統合は、Veeva にリンクされたドキュメントをサポートしていますか？ サポートされていない場合は、どの関係タイプがサポートされていますか？**
 
-いいえ。[Veeva ドキュメント ](https://vaulthelp2.vod309.com/wordpress/admin-user-help/documents-admin-user-help/about-document-relationships/) を参照してください。 リンクされたドキュメント（参照関係タイプ）は、API を使用して作成または削除できない標準的な関係タイプの 1 つです。これは、特別な Vault 動作を持つためです。 コンポーネント、サポートドキュメント、およびこのリストにない他のコンポーネントは、AEM Veeva Cloud Configuration を使用してを設定できます。
+いいえ。[Veeva ドキュメント &#x200B;](https://vaulthelp2.vod309.com/wordpress/admin-user-help/documents-admin-user-help/about-document-relationships/) を参照してください。 リンクされたドキュメント（参照関係タイプ）は、API を使用して作成または削除できない標準的な関係タイプの 1 つです。これは、特別な Vault 動作を持つためです。 コンポーネント、サポートドキュメント、およびこのリストにない他のコンポーネントは、AEM Veeva Cloud Configuration を使用してを設定できます。
 
 **この統合は、AEMのモジュールコンテンツをサポートしますか？**
 
@@ -33,7 +33,7 @@ Veeva Portal では、コンテンツタイプ（プロモーションなど）�
 
 **統合によって同期される VVPM ドキュメントに対する権限を設定する方法を教えてください。**
 
-この統合では、サービスユーザーを使用して、API 経由でドキュメントをアップロードします。  ドキュメントのデフォルト設定と上書きルール（ドキュメントのデフォルト設定の役割）は、VVPM ユーザーインターフェイスでのみサポートされ、API の使用時には適用されません。 ロールの割り当てには DAC （動的アクセス制御）を使用することをお勧めします。 DAC は、API を含むすべてのタッチポイントを通じて適用されます。 [ こちらのドキュメントを参照してください。](http://vaulthelp2.vod309.com/wordpress/admin-user-help/ah-user-permissions-access-control/about-dynamic-access-control-for-documents/)
+この統合では、サービスユーザーを使用して、API 経由でドキュメントをアップロードします。  ドキュメントのデフォルト設定と上書きルール（ドキュメントのデフォルト設定の役割）は、VVPM ユーザーインターフェイスでのみサポートされ、API の使用時には適用されません。 ロールの割り当てには DAC （動的アクセス制御）を使用することをお勧めします。 DAC は、API を含むすべてのタッチポイントを通じて適用されます。 [&#x200B; こちらのドキュメントを参照してください。](http://vaulthelp2.vod309.com/wordpress/admin-user-help/ah-user-permissions-access-control/about-dynamic-access-control-for-documents/)
 
 **統合では複数の VVPM インスタンスがサポートされますか？**
 
