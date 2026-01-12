@@ -36,11 +36,11 @@ ht-degree: 1%
 * VVPM からAEMへの VVPM 視覚注釈の同期はサポートされていません。
 * 統合では、コンテンツを VVPM からAEMに読み込みません。
 * メタデータの検証はサポートされていません。
-* ドキュメントの数は、Veeva ライセンスに基づいて制限されます。 [ ライセンスの制限 ](#veeva-license-limitations) を参照してください。
-* API 呼び出しの数は、Veeva ライセンスに基づいて制限されます。 詳しくは、[API の制限 ](https://developer.veevavault.com/docs/#what-are-rate-limits) を参照してください。 [ ライセンスの制限 ](#veeva-license-limitations) を参照してください。
+* ドキュメントの数は、Veeva ライセンスに基づいて制限されます。 [&#x200B; ライセンスの制限 &#x200B;](#veeva-license-limitations) を参照してください。
+* API 呼び出しの数は、Veeva ライセンスに基づいて制限されます。 詳しくは、[API の制限 &#x200B;](https://developer.veevavault.com/docs/#what-are-rate-limits) を参照してください。 [&#x200B; ライセンスの制限 &#x200B;](#veeva-license-limitations) を参照してください。
 
 ## Veeva ライセンスの制限
 
 VVPM の一般設定に移動すると、インスタンスの制限を監視できます。
 
-![Veeva の制限 ](assets/veeva-limits.png)
+![Veeva の制限 &#x200B;](assets/veeva-limits.png)

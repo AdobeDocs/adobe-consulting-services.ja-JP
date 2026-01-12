@@ -98,4 +98,4 @@ ht-degree: 0%
 
 ### Veeva Vault プロモマットのサポートのリクエスト
 
-時々、経験される問題は、Veeva Vault PromoMats インスタンスの操作に関する問題です。 その場合、Veeva Vault PromoMats 管理者は、[Veeva サポート ](http://support.veeva.com/) でサポートチケットを作成するように指示される場合があります。 Veeva インスタンスのステータスは、[Veeva Trust](http://trust.veeva.com/) に移動すると表示できます。
+時々、経験される問題は、Veeva Vault PromoMats インスタンスの操作に関する問題です。 その場合、Veeva Vault PromoMats 管理者は、[Veeva サポート &#x200B;](http://support.veeva.com/) でサポートチケットを作成するように指示される場合があります。 Veeva インスタンスのステータスは、[Veeva Trust](http://trust.veeva.com/) に移動すると表示できます。
