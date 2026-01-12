@@ -2,7 +2,7 @@
 title: Veeva Vault 統合の使用状況
 description: Veeva Vault 統合の使用状況
 exl-id: efff7af1-eb25-4a1d-b7ef-52e3336970ff
-source-git-commit: b024e4295b5b37030c1524342832400c279c650a
+source-git-commit: b4261448e34cdcee9c28410a9d3cd8dbcc9212fa
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 5%
@@ -271,7 +271,6 @@ PDF/Image に変換され、Veeva にプッシュされるコンテンツに対�
 >
 > これらのアクションは、システムごとに管理者として実行する必要があります。
 > ユーザーの作成や権限の設定を行う場合は、組織のセキュリティ標準に従う必要があります。
->
 
 #### Veeva ユーザーの作成
 
@@ -281,7 +280,7 @@ PDF/Image に変換され、Veeva にプッシュされるコンテンツに対�
 
    ![Veeva ユーザーに移動 &#x200B;](assets/veeva-user-navigate.png)
 
-2. 必要な入力を行います。 最も簡単な設定は、`License Type` を `Full User` に、`Security Profile` を `Vault Owner` に設定することです。 完了したら保存します。
+1. 必要な入力を行います。 最も簡単な設定は、`License Type` を `Full User` に、`Security Profile` を `Vault Owner` に設定することです。 完了したら保存します。
 
    ![Veeva ユーザーの作成 &#x200B;](assets/veeva-user-create.png)
 
