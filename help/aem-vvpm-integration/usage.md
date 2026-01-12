@@ -2,7 +2,7 @@
 title: Veeva Vault 統合の使用状況
 description: Veeva Vault 統合の使用状況
 exl-id: efff7af1-eb25-4a1d-b7ef-52e3336970ff
-source-git-commit: b024e4295b5b37030c1524342832400c279c650a
+source-git-commit: b4261448e34cdcee9c28410a9d3cd8dbcc9212fa
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 5%
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 #### パッケージインストール
 
-パッケージをインストールするには、オンボーディングメールで提供されるリンクと共にダウンロードします。 [AEM パッケージのインストール手順について詳しくは、こちらをクリックしてください。](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/package-manager.html?lang=ja&#installing-packages)
+パッケージをインストールするには、オンボーディングメールで提供されるリンクと共にダウンロードします。 [AEM パッケージのインストール手順について詳しくは、こちらをクリックしてください。](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/package-manager.html?#installing-packages)
 
 #### POM インストール
 
@@ -47,7 +47,7 @@ ht-degree: 5%
 
    >[!IMPORTANT]
    >
-   >Cloud manager を使用する場合、安全なアプローチは、ここに記載されている [&#x200B; パスワードで保護された Maven リポジトリ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=ja#password-protected-maven-repositories) の手順に従うことです。
+   >Cloud manager を使用する場合、安全なアプローチは、ここに記載されている [ パスワードで保護された Maven リポジトリ ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=en#password-protected-maven-repositories) の手順に従うことです。
 
    ```
    <settings>
@@ -155,36 +155,36 @@ ht-degree: 5%
 
 1. Veeva クラウド設定に移動します。
 
-   ![&#x200B; クラウド設定に移動 &#x200B;](assets/cloud-config-navigate.png)
+   ![ クラウド設定に移動 ](assets/cloud-config-navigate.png)
 
 2. 適切なフォルダーに新しい Veeva クラウド設定を作成し、次の節で説明するように入力します。
 
-   ![&#x200B; クラウド設定の作成 &#x200B;](assets/cloud-config-create.png)
+   ![ クラウド設定の作成 ](assets/cloud-config-create.png)
 
 #### 「設定」タブ
 
 「設定」タブで次の情報を入力します。
 
-![&#x200B; 「設定」タブ &#x200B;](assets/configuration-tab.png)
+![ 「設定」タブ ](assets/configuration-tab.png)
 
 1. 必須。Veeva Vault コネクタ設定のタイトル。 これは任意の値を指定できます。 （例：`Veeva Vault Configuration`）
 2. 必須。Veeva インスタンスのドメイン URL （例：`https://my-instance.veevavault.com/`）
 3. 必須。Veeva Vault API を呼び出すには ClientID が必要です。 これは任意の値を指定でき、主にデバッグに使用されます。 （例：`adobe-aem-vvtechpartner`）
-4. 必須。Veeva Vault のユーザー名。 [Veeva ユーザーの作成 &#x200B;](#veeva-user-creation) を参照してください。
-5. 必須。Veeva Vault のパスワード [Veeva ユーザーの作成 &#x200B;](#veeva-user-creation) を参照してください。
+4. 必須。Veeva Vault のユーザー名。 [Veeva ユーザーの作成 ](#veeva-user-creation) を参照してください。
+5. 必須。Veeva Vault のパスワード [Veeva ユーザーの作成 ](#veeva-user-creation) を参照してください。
 
 #### 「Adobe IO」タブ
 
 プロジェクトでページの PDF または画像を生成する必要がある場合、このタブは必須です。 Adobe io タブに次の情報を入力します。
 
-![Adobe IO タブ &#x200B;](assets/adobe-io-tab.png)
+![Adobe IO タブ ](assets/adobe-io-tab.png)
 
 1. 必須。オンボーディングメールで提供されたPDF画像を作成するためのAdobe IO エンドポイント。 （例：`https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/trigger-action.json`）
 2. 必須。ページ画像生成のアクション名。 この値は `aem-veeva-integration/get-image-async` である必要があります。
 3. 必須。HTML 画像生成のアクション名。 この値は `aem-veeva-integration/get-pdf-async-new` である必要があります。
 4. 必須。オンボーディングメールで提供された生成の状態を取得するAdobe IO エンドポイント。（例：`https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/get-state-value`）
-5. 必須。Adobe IO で使用されるAEM ユーザー名。 [AEM ユーザーの作成 &#x200B;](#aem-user-creation) を参照してください。
-6. 必須。Adobe IO で使用するAEMのパスワード。 [AEM ユーザーの作成 &#x200B;](#aem-user-creation) を参照してください。
+5. 必須。Adobe IO で使用されるAEM ユーザー名。 [AEM ユーザーの作成 ](#aem-user-creation) を参照してください。
+6. 必須。Adobe IO で使用するAEMのパスワード。 [AEM ユーザーの作成 ](#aem-user-creation) を参照してください。
 7. オプション。デフォルトのタイムアウトでは、指定された時間が経過すると AIO サービスが応答を取得しようとしなくなるまで、ページを応答させます。 デフォルト値は `30000` です。
 8. オプション。遅延は、スクリーンショットを取得する前にすべての画像がレンダリングされる 200 でページが応答した後です。 デフォルト値は `2000` です。
 9. オプション。スクリーンショット/PDFで生成された URL は、設定された値（秒）が経過すると有効期限が切れます。
@@ -195,7 +195,7 @@ ht-degree: 5%
 
 「詳細」タブで次の情報を入力します。
 
-![&#x200B; 「詳細」タブ &#x200B;](assets/advanced-tab.png)
+![ 「詳細」タブ ](assets/advanced-tab.png)
 
 1. PDF/画像の生成に必要。 PDF/画像の作成時に使用されるファイル名パターン。 `{name}` はテンプレート化できます。 （例：`{name}-screenshot`）
 2. オプション。デスクトップ以外にページのスクリーンショットが必要なデバイスタイプ。 有効なタイプには、`Tab (iPad)`、`Mobile (iPhone X)` などがあります。
@@ -219,7 +219,7 @@ ht-degree: 5%
 
 ページを同期する場合は、「ページ」タブで次の項目を入力します。
 
-![&#x200B; 「ページ」タブ &#x200B;](assets/page-tab.png)
+![ 「ページ」タブ ](assets/page-tab.png)
 
 1. 必須。AEMから Veeva にプロパティをマッピングします。
 a. AEM プロパティ名。 AEM プロパティから選択可能 （例：`jcr:title`） `{name}` テンプレート化できます。
@@ -236,7 +236,7 @@ c. プロパティタイプ。 `Text` または `Multiline Text`。
 
 アセットを同期する場合は、「アセット」タブで次の情報を入力します。
 
-![&#x200B; 「アセット」タブ &#x200B;](assets/asset-tab.png)
+![ 「アセット」タブ ](assets/asset-tab.png)
 
 1. 必須。AEMから Veeva にプロパティをマッピングします。
 a. AEM プロパティ名。 AEM プロパティから選択可能 （例：`/jcr:content/metadata/jcr:title`） `{name}` テンプレート化できます。
@@ -256,12 +256,12 @@ PDFまたは画像の生成中に、AEMからページを取得するために�
 
 AEM 6.5.5 以降を使用している場合：
 
-* [AEMでのユーザーの作成 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html?lang=ja&#create-a-user)
-* [AEMでのユーザーへの権限の追加 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=ja&#permissions-in-aem)
+* [AEMでのユーザーの作成 ](https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html?#create-a-user)
+* [AEMでのユーザーへの権限の追加 ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?#permissions-in-aem)
 
 AEM Cloud Services を使用している場合：
 
-* [AEM Cloud Services を使用したユーザーの管理 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=ja&#accessing)
+* [AEM Cloud Services を使用したユーザーの管理 ](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?#accessing)
 
 PDF/Image に変換され、Veeva にプッシュされるコンテンツに対するAEM サービスユーザーには、次の権限が必要です。
 
@@ -271,7 +271,6 @@ PDF/Image に変換され、Veeva にプッシュされるコンテンツに対�
 >
 > これらのアクションは、システムごとに管理者として実行する必要があります。
 > ユーザーの作成や権限の設定を行う場合は、組織のセキュリティ標準に従う必要があります。
->
 
 #### Veeva ユーザーの作成
 
@@ -279,11 +278,11 @@ PDF/Image に変換され、Veeva にプッシュされるコンテンツに対�
 
 1. 管理者/ユーザーとグループ/Vault ユーザー/作成に移動します。
 
-   ![Veeva ユーザーに移動 &#x200B;](assets/veeva-user-navigate.png)
+   ![Veeva ユーザーに移動 ](assets/veeva-user-navigate.png)
 
-2. 必要な入力を行います。 最も簡単な設定は、`License Type` を `Full User` に、`Security Profile` を `Vault Owner` に設定することです。 完了したら保存します。
+1. 必要な入力を行います。 最も簡単な設定は、`License Type` を `Full User` に、`Security Profile` を `Vault Owner` に設定することです。 完了したら保存します。
 
-   ![Veeva ユーザーの作成 &#x200B;](assets/veeva-user-create.png)
+   ![Veeva ユーザーの作成 ](assets/veeva-user-create.png)
 
 使用されている特定の Veeva ドキュメントタイプには、次の権限が必要です。
 
