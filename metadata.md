@@ -39,4 +39,4 @@ ToCs
 * `title`
 * `description`
 
-メタデータに関する追加情報については、[ 内部オーサリングガイド ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html) を参照してください。
+メタデータに関する追加情報については、[&#x200B; 内部オーサリングガイド &#x200B;](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html) を参照してください。
