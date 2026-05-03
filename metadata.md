@@ -1,27 +1,28 @@
 ---
 product: adobe experience manager
 solution: Experience Manager
-description: Experience Managerのドキュメントの参照
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+description: Experience Managerのドキュメントのコンサルティング
 type: Documentation
-git-repo: https://github.com/AdobeDocs/adobe-consulting-services.ja-JP
+git-repo: https://github.com/AdobeDocs/adobe-consulting-services.en
 index: true
-source-git-commit: f491b48a151904f13becc146beab52600c9cef46
+source-git-commit: 962068b966448989329330b3f62ee4748cba017d
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: 94
 ht-degree: 2%
 
 ---
 
 
-# 内部使用のメタデータ
+# 内部使用のためのメタデータ
 
-GitHub オーサリングシステムのメタデータは階層になっており、次の高い優先度で定義されています。
+GitHub オーサリングシステムのメタデータは階層的であり、次のレベルの前例で定義されています。
 
 1. metadata.md
-1. から C
+1. ToC
 1. 記事
 
-metadata.md ファイルで定義されたメタデータはリポジトリ全体に適用されますが、目次と記事のレベルで上書きできます。 メタデータの上書きは、できるだけ低いレベルで行う必要があります。
+metadata.md ファイルで定義されたメタデータは、リポジトリ全体に適用されますが、ToC レベルとアーティクルレベルで上書きできます。 メタデータの上書きは、可能な限り低いレベルで行う必要があります。
 
 metadata.md
 
@@ -39,4 +40,4 @@ ToCs
 * `title`
 * `description`
 
-メタデータに関する追加情報については、[&#x200B; 内部オーサリングガイド &#x200B;](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html) を参照してください。
+メタデータに関する追加情報については、[社内オーサリングガイド ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html)を参照してください。
