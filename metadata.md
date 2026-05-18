@@ -5,7 +5,7 @@ product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 description: Experience Managerのドキュメントのコンサルティング
 type: Documentation
-git-repo: https://github.com/AdobeDocs/adobe-consulting-services.en
+git-repo: https://github.com/AdobeDocs/adobe-consulting-services.ja-JP
 index: true
 source-git-commit: 78d98fcb8f43f48cab7de480af1eac087526cec5
 workflow-type: tm+mt
