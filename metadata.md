@@ -1,13 +1,13 @@
 ---
 product: adobe experience manager
 solution: Experience Manager
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+usetq: true
 description: Experience Managerのドキュメントのコンサルティング
 type: Documentation
-git-repo: https://github.com/AdobeDocs/adobe-consulting-services.ja-JP
+git-repo: https://github.com/AdobeDocs/adobe-consulting-services.en
 index: true
-source-git-commit: 78d98fcb8f43f48cab7de480af1eac087526cec5
+source-git-commit: e0159a3db7c79d12ee150be018ee5d005975b95a
 workflow-type: tm+mt
 source-wordcount: 94
 ht-degree: 2%
@@ -41,4 +41,4 @@ ToCs
 * `title`
 * `description`
 
-メタデータに関する追加情報については、[社内オーサリングガイド &#x200B;](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html)を参照してください。
+メタデータに関する追加情報については、[社内オーサリングガイド ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html)を参照してください。
