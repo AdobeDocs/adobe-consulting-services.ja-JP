@@ -1,7 +1,8 @@
 ---
 product: adobe experience manager
 solution: Experience Manager
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
 usetq: true
 description: Experience Managerのドキュメントのコンサルティング
 type: Documentation
@@ -41,4 +42,4 @@ ToCs
 * `title`
 * `description`
 
-メタデータに関する追加情報については、[社内オーサリングガイド ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html)を参照してください。
+メタデータに関する追加情報については、[社内オーサリングガイド &#x200B;](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html)を参照してください。
