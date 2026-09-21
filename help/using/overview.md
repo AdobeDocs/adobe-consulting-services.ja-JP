@@ -14,6 +14,6 @@ ht-degree: 2%
 
 このリポジトリは、ACSがAEMで使用するために作成したソリューションを文書化します。
 
-![ACS Commons ロゴ ](assets/acs-commons.png)
+![ACS Commons ロゴ &#x200B;](assets/acs-commons.png)
 
 

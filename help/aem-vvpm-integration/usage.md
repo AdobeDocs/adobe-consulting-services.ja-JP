@@ -48,7 +48,7 @@ AEM統合パッケージへのアクセス権が付与されます。 統合を�
 
    >[!IMPORTANT]
    >
-   >Cloud Managerを使用する場合、安全なアプローチは、[ パスワードで保護されたMaven リポジトリ ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=en#password-protected-maven-repositories)に関するこちらの手順に従うことです。
+   >Cloud Managerを使用する場合、安全なアプローチは、[&#x200B; パスワードで保護されたMaven リポジトリ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=en#password-protected-maven-repositories)に関するこちらの手順に従うことです。
 
    ```
    <settings>
@@ -156,17 +156,17 @@ AEM統合パッケージへのアクセス権が付与されます。 統合を�
 
 1. Veeva クラウド設定に移動します。
 
-   ![ クラウド設定に移動](assets/cloud-config-navigate.png)
+   ![&#x200B; クラウド設定に移動](assets/cloud-config-navigate.png)
 
 2. 適切なフォルダーに新しいVeeva クラウド設定を作成し、次の節で説明するように、を入力します。
 
-   ![ クラウド設定の作成](assets/cloud-config-create.png)
+   ![&#x200B; クラウド設定の作成](assets/cloud-config-create.png)
 
 #### 「設定」タブ
 
 「設定」タブに次の項目を入力します。
 
-![設定タブ ](assets/configuration-tab.png)
+![設定タブ &#x200B;](assets/configuration-tab.png)
 
 1. 必須。 Veeva Vault コネクタ設定のタイトル。 これは任意の値にすることができます。 (e.g. `Veeva Vault Configuration`)
 2. 必須。 Veeva インスタンスのドメイン URL （例：`https://my-instance.veevavault.com/`）
@@ -178,7 +178,7 @@ AEM統合パッケージへのアクセス権が付与されます。 統合を�
 
 プロジェクトでページのPDFまたは画像を生成する必要がある場合は、このタブが必要です。 「adobe io」タブに次の項目を入力します。
 
-![Adobe IO タブ ](assets/adobe-io-tab.png)
+![Adobe IO タブ &#x200B;](assets/adobe-io-tab.png)
 
 1. 必須。 オンボーディングメールで提供されたPDF画像を作成するためのAdobe IO エンドポイント。 (e.g. `https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/trigger-action.json`)
 2. 必須。 ページ画像生成のアクション名。 この値は`aem-veeva-integration/get-image-async`である必要があります。
@@ -196,7 +196,7 @@ AEM統合パッケージへのアクセス権が付与されます。 統合を�
 
 「詳細」タブに次の項目を入力します。
 
-![詳細タブ ](assets/advanced-tab.png)
+![詳細タブ &#x200B;](assets/advanced-tab.png)
 
 1. PDF/画像生成に必要です。 PDF/画像の作成時に使用されるファイル名パターン。 `{name}`はテンプレート化できます。 (e.g. `{name}-screenshot`)
 2. オプション。 デスクトップ以外のページのスクリーンショットが必要なデバイスタイプ。 有効なタイプは`Tab (iPad)`と`Mobile (iPhone X)`です。
@@ -220,7 +220,7 @@ AEM統合パッケージへのアクセス権が付与されます。 統合を�
 
 ページを同期する場合は、「ページ」タブに次の項目を入力します。
 
-![ ページタブ ](assets/page-tab.png)
+![&#x200B; ページタブ &#x200B;](assets/page-tab.png)
 
 1. 必須。 AEMからVeevaにプロパティをマッピングします。
 a. AEM プロパティ名。 AEMのプロパティから選択可能です。 （例：`jcr:title`） `{name}`をテンプレート化できます。
@@ -237,7 +237,7 @@ c. プロパティタイプ： `Text`または`Multiline Text`のいずれか。
 
 アセットを同期する場合は、「アセット」タブに次の情報を入力します。
 
-![ アセットタブ ](assets/asset-tab.png)
+![&#x200B; アセットタブ &#x200B;](assets/asset-tab.png)
 
 1. 必須。 AEMからVeevaにプロパティをマッピングします。
 a. AEM プロパティ名。 AEMのプロパティから選択可能です。 （例：`/jcr:content/metadata/jcr:title`） `{name}`をテンプレート化できます。

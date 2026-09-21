@@ -18,7 +18,7 @@ Veeva Portalのコンテンツタイプ（プロモーションなど）に基�
 
 **統合はVeeva リンクされたドキュメントをサポートしていますか？ サポートされていない場合、どの関係タイプがサポートされていますか？**
 
-いいえ。 [Veeva ドキュメント ](https://vaulthelp2.vod309.com/wordpress/admin-user-help/documents-admin-user-help/about-document-relationships/)を参照してください。 リンクされたドキュメント（参照関係タイプ）は、Vaultの特別な動作により、APIを介して作成または削除できない標準的な関係タイプの1つです。 コンポーネント、サポートドキュメント、およびこのリストに含まれないその他のドキュメントは、AEM Veeva Cloud設定を使用して設定できます。
+いいえ。 [Veeva ドキュメント &#x200B;](https://vaulthelp2.vod309.com/wordpress/admin-user-help/documents-admin-user-help/about-document-relationships/)を参照してください。 リンクされたドキュメント（参照関係タイプ）は、Vaultの特別な動作により、APIを介して作成または削除できない標準的な関係タイプの1つです。 コンポーネント、サポートドキュメント、およびこのリストに含まれないその他のドキュメントは、AEM Veeva Cloud設定を使用して設定できます。
 
 **統合はAEM モジュラーコンテンツをサポートしていますか？**
 
