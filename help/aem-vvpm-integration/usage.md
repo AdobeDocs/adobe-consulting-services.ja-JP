@@ -38,7 +38,7 @@ AEM統合パッケージへのアクセス権が付与されます。 統合を�
 
 #### パッケージインストール
 
-パッケージをインストールするには、オンボーディングメールに記載されているリンクをダウンロードします。 [AEM パッケージのインストール方法の詳細については、ここをクリックしてください。](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/package-manager.html?#installing-packages)
+パッケージをインストールするには、オンボーディングメールに記載されているリンクをダウンロードします。 [AEM パッケージのインストール方法の詳細については、ここをクリックしてください。](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/package-manager.html?lang=ja&#installing-packages)
 
 #### POM インストール
 
@@ -48,7 +48,7 @@ AEM統合パッケージへのアクセス権が付与されます。 統合を�
 
    >[!IMPORTANT]
    >
-   >Cloud Managerを使用する場合、安全なアプローチは、[&#x200B; パスワードで保護されたMaven リポジトリ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=en#password-protected-maven-repositories)に関するこちらの手順に従うことです。
+   >Cloud Managerを使用する場合、安全なアプローチは、[&#x200B; パスワードで保護されたMaven リポジトリ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=ja#password-protected-maven-repositories)に関するこちらの手順に従うことです。
 
    ```
    <settings>
@@ -257,12 +257,12 @@ PDF/画像の生成中に、AEMからページを取得するには、AEM ユー
 
 AEM 6.5.5以降を使用している場合：
 
-* [AEMでのユーザーの作成](https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html?#create-a-user)
-* [AEMでのユーザーへの権限の追加](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?#permissions-in-aem)
+* [AEMでのユーザーの作成](https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html?lang=ja&#create-a-user)
+* [AEMでのユーザーへの権限の追加](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=ja&#permissions-in-aem)
 
 AEM Cloud Servicesを使用している場合：
 
-* [AEM Cloud Servicesによるユーザーの管理](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?#accessing)
+* [AEM Cloud Servicesによるユーザーの管理](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=ja&#accessing)
 
 PDF/Imageに変換され、Veevaにプッシュされるコンテンツに対するAEM サービスユーザーには、次の権限が必要です。
 
