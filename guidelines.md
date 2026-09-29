@@ -36,7 +36,7 @@ ACS ドキュメントでは、標準的なユースケースについて説明�
 
 ACS ドキュメントを改善するために必要なアイデアは、コントリビューションとして歓迎されます。 ただし、コメント、イシュー、およびプルリクエストは、*寄付*&#x200B;のみを対象としています。 AEMの使用方法、AEM プロジェクトの導入方法、技術的な問題の解決に関する質問への回答を目的としたものではありません。
 
-AEMの使用状況や技術的なエラーに関するご質問は、[Experience Cloud Enterprise Support Portal](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)経由で通常のサポートプロセスを通じて報告するか、[Experience Manager コミュニティ ](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)で相談してください。
+AEMの使用状況や技術的なエラーに関するご質問は、[Experience Cloud Enterprise Support Portal](https://helpx.adobe.com/jp/contact/enterprise-support.ec.html)経由で通常のサポートプロセスを通じて報告するか、[Experience Manager コミュニティ &#x200B;](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)で相談してください。
 
 ***ACS ドキュメントの投稿は、Adobe カスタマーケア***&#x200B;の代替となるものではなく、サポート関連の質問に対する回答を求めるそのような投稿は拒否されます。
 
@@ -64,7 +64,7 @@ ACS ドキュメントの読者は世界中に存在し、ネイティブまた�
 
 #### Microsoftのスタイルマニュアルに従う
 
-[Microsoftのスタイルマニュアル ](https://docs.microsoft.com/en-us/style-guide/welcome/)は、ソフトウェアのドキュメントに焦点を当てた無料のドキュメントスタイルガイドです。AEMのドキュメントは、可能な限りこのガイドに従います。
+[Microsoftのスタイルマニュアル &#x200B;](https://docs.microsoft.com/en-us/style-guide/welcome/)は、ソフトウェアのドキュメントに焦点を当てた無料のドキュメントスタイルガイドです。AEMのドキュメントは、可能な限りこのガイドに従います。
 
 ### 書式設定
 
